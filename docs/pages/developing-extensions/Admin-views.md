@@ -33,9 +33,9 @@ The Barebones template includes two files by default, `conf.yml` and `view.blade
   </div>
 </div>
 
-You might have already noticed that `{name}`, `{identifier}` and `{version}` have been replaced with the corresponding values automatically. These strings are referred to as [placeholders](?page=documentation/placeholders), which you can find documentation for [on this page](?page=documentation/placeholders).
+You might have already noticed that `{name}`, `{identifier}` and `{version}` are replaced with the corresponding values automatically. These strings are referred to as [placeholders](?page=documentation/placeholders).
 
-Right now all lines or on the same row. This is due to how Blueprint builds your admin view internally, as it doesn't handle linebreaks. We can fix this by adding `<br>` tags at the end of each line.
+Right now, all lines are on the same row. This is due to how HTML is rendered in Blueprint’s admin view, as it doesn’t handle line breaks. We can fix this by adding `<br>` tags at the end of each line.
 
 <div class="row container mb-2">
   <div class="col rounded-1 py-2" style="background-color: #282c34">
@@ -51,9 +51,11 @@ Right now all lines or on the same row. This is due to how Blueprint builds your
   </div>
 </div>
 
-This looks a bit plain, doesn't it? We can spice things up and add a bit of depth with box containers, a fancy title and a much better user experience.
+This looks a bit plain, doesn't it? We can spice things up and add a bit of depth with box containers, a fancy title, and a much better user experience.
 
-We can achieve this with the `box` css class, which is included in the Pterodactyl admin panel by default. To add a nice color alongside the box, you can make use of the following classes: <a class="text-primary">`box-primary`</a>, <a class="text-info">`box-info`</a>, <a class="text-success">`box-success`</a>, <a class="text-warning">`box-warning`</a> and <a class="text-danger">`box-danger`</a>.
+We can achieve this with the `box` CSS class, which is included in the Pterodactyl admin panel by default. To add a nice color alongside the box, you can make use of the following classes: <a class="text-primary">`box-primary`</a>, <a class="text-info">`box-info`</a>, <a class="text-success">`box-success`</a>, <a class="text-warning">`box-warning`</a> and <a class="text-danger">`box-danger`</a>.
+
+Here's an example of how you can use these classes to enhance your admin view:
 
 <div class="row container mb-2">
   <div class="col rounded-1 py-2" style="background-color: #282c34">
@@ -76,7 +78,7 @@ We can achieve this with the `box` css class, which is included in the Pterodact
   </div>
 </div><br>
 
-You have now created your very own admin page through Blueprint. Try experimenting a bit with it, and once you are ready, move onto the next guide.
+You have now created your very own admin page through Blueprint. Try experimenting a bit with it, and once you are ready, move on to the next guide to learn how to create custom controllers for your extension.
 
 <div class="btn-group docs-navigator" role="group" aria-label="Navigation" style="float: right">
   <a href="?page=getting-started/Extension-development" class="btn btn-dark bg-light-subtle border-0 rounded-start-pill">Previous</a>
