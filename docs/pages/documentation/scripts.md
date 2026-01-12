@@ -15,7 +15,7 @@
 
 Extension scripts are advanced collections of commands allowing extensions to extend parts of Pterodactyl that are out of Blueprint's scope. Due to the nature of the complexity related to these scripts, they are advised against.
 
-Scripts can **prevent extensions from being listed** on the [extension browse list](../browse) if they do not meet **all of the following requirements**:
+Scripts can **prevent extensions from being listed** on the [extension browse list](https://blueprint.zip/browse) if they do not meet **all of the following requirements**:
 
 - Scripts <u>should never</u> cause conflicts with other extensions respecting these guidelines.
   - This means extensions are not allowed to overwrite files outside of the scope of their own extensions and must use search-and-replace instead.

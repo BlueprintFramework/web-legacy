@@ -24,7 +24,7 @@
 
 <div class="alert mt-2 rounded-4 border" role="alert">
   <i class="bi bi-exclamation-diamond mb-1 text-danger float-start fs-4"></i>
-  <div class="ps-3 ms-3"><strong>Only use extensions from trusted sources</strong> such as <strong><a href="/browse">Blueprint's extension repository</a></strong>, <a href="https://sourcexchange.net">sourceXchange</a> or <a href="https://builtbybit.com">BuiltByBit</a>. Third-party sources may contain unverified or malicious code.</div>
+  <div class="ps-3 ms-3"><strong>Only use extensions from trusted sources</strong> such as <strong><a href="https://blueprint.zip/browse">Blueprint's extension repository</a></strong>, <a href="https://sourcexchange.net">sourceXchange</a> or <a href="https://builtbybit.com">BuiltByBit</a>. Third-party sources may contain unverified or malicious code.</div>
 </div><br/>
 
 To install a Blueprint extension, move the `.blueprint` file into your Pterodactyl root directory, usually `/var/www/pterodactyl`.<br>

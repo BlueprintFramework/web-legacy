@@ -94,7 +94,7 @@
             <div class="mobile-nav-spacer"></div>
           </li>
           <li class="nav-item">
-            <a href="/browse" class="btn btn-dark rounded-2 d-flex gap-2 py-2 px-3 lh-sm text-start align-items-center position-absolute mobile-nav-link bg-light-subtle">
+            <a href="https://blueprint.zip/browse" class="btn btn-dark rounded-2 d-flex gap-2 py-2 px-3 lh-sm text-start align-items-center position-absolute mobile-nav-link bg-light-subtle">
               <div>
                 <i class="bi bi-puzzle-fill h1"></i>
               </div>
@@ -347,7 +347,7 @@
                       >
                         <div class="input-group mb-2 flex-nowrap">
                           <label class="input-group-text w-100 border-0 platform-button-content">
-                            <img src="/browse/assets/source/${
+                            <img src="https://blueprint.zip/browse/assets/source/${
                               platforms[platform][1]
                             }" alt="" width="24" height="24" class="me-2">
                             ${platforms[platform][0]}
@@ -443,7 +443,7 @@
       let extension_id = window.location.pathname.split("/").pop() || window.location.hash;
 
       if (!extension_id) {
-        window.location = "/browse"
+        window.location = "https://blueprint.zip/browse"
       } else if (extension_id === "extensions" || extension_id === "extensions.html") {
         extension_id = window.location.hash.slice(1);
       }
@@ -455,7 +455,7 @@
         })
         .catch((error) => {
           console.error("Error:", error);
-          window.location = "/browse"
+          window.location = "https://blueprint.zip/browse"
         });
     </script>
   </body>
